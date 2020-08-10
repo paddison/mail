@@ -1,3 +1,27 @@
 textarea {
     min-height: 400px;
 }
+
+
+.mailbox-email-wrapper {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #007bff;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.read {
+    background-color: #e7f3ff;
+}
+
+.mailbox-date-wrapper {
+    color: rgb(80, 80, 80);
+}
+
+#email-body {
+    white-space: pre-wrap;
+}
